@@ -37,18 +37,19 @@ Except where noted, full-text search leverages all the international features su
 
 ### Practical Implementations of Full-text Search concept
 
-1. Apache Lucene
+#### Apache Lucene
 
     While suitable for any application that requires full-text indexing and searching capability, Lucene is recognized for its utility in the implementation of Internet search engines and local, single-site searching.
 
-2. Apache Solr
+#### Apache Solr
 
     Solr (pronounced "solar") is an open-source enterprise-search platform, written in Java, from the Apache Lucene project. Its major features include full-text search, hit highlighting, faceted search, real-time indexing, dynamic clustering, database integration, NoSQL features, and rich document (e.g., Word, PDF) handling.
 
-3. Elasticsearch
+#### Elasticsearch
+
     Elasticsearch can be used to search for all kinds of documents. It provides scalable search, has a near real-time search, and supports multitenancy."Elasticsearch is distributed, which means that indices can be divided into shards and each shard can have zero or more replicas. Each node hosts one or more shards and acts as a coordinator to delegate operations to the correct shard(s). Rebalancing and routing are done automatically".Related data is often stored in the same index, which consists of one or more primary shards, and zero or more replica shards. Once an index has been created, the number of primary shards cannot be changed.
 
-#### References
+### References
 
 1. <https://en.wikipedia.org/wiki/Apache_Lucene>
 2. <https://en.wikipedia.org/wiki/Elasticsearc>
